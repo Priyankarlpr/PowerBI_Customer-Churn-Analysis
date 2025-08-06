@@ -90,6 +90,17 @@ Machine learning was performed in a separate **Jupyter Notebook** using:
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
+## Key Insights from Power BI Dashboard
+
+- 🔹 **High Churn States**: Certain states such as California and Texas showed the highest churn rates.
+- 🔹 **Short Tenure = High Churn**: Customers with less than 12 months of tenure had a significantly higher churn rate.
+- 🔹 **Contract Impact**: Month-to-month contract users churned more compared to yearly subscribers.
+- 🔹 **Revenue Loss**: Several high-revenue customers were found among the churned group.
+- 🔹 **Churn Reasons**: Major reasons include “Competitor Offer” and “Poor Tech Support”.
+- 🔹 **Service Impact**: Users without value-added services like Online Security or Streaming TV were more likely to churn.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Project Files
 
 | File | Description |
