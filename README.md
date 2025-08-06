@@ -32,7 +32,7 @@ This project presents an end-to-end churn analysis solution using **SQL Server f
 The project uses a **single flat table**: `prod_Churn`, which contains customer-level telecom data.
 
 📄 View full schema image:  
-![Database Schema](assets/Database%20Schema.png)
+![Database Schema](https://github.com/Priyankarlpr/PowerBI_Customer-Churn-Analysis/blob/main/SQL/Database%20Schema.png)
 
 | Column Name             | Description                              |
 |-------------------------|------------------------------------------|
@@ -58,7 +58,7 @@ All EDA and preparation were done in SQL Server:
   - `vw_JoinData` → for newly joined customers
 - Cleaned nulls using `ISNULL()` and inserted into `prod_Churn`
 
-[View SQL Scripts](sql/SQL%20Queries.docx)
+[View SQL Scripts](https://github.com/Priyankarlpr/PowerBI_Customer-Churn-Analysis/blob/main/SQL/SQL%20Queries.docx)
 
 ---
 
@@ -67,12 +67,12 @@ All EDA and preparation were done in SQL Server:
 The Power BI report contains **3 pages**:
 
 ### Summary View  
-![Summary](assets/Summary.png)
+![Summary](https://github.com/Priyankarlpr/PowerBI_Customer-Churn-Analysis/blob/main/PowerBI/Summary.png)
 - Churn rate by **gender, age, tenure, internet type, payment method**
 - Regional churn insights and service usage breakdowns
 
 ###  Churn Prediction View  
-![Churn Prediction](assets/Churn%20Prediction.png)
+![Churn Prediction](https://github.com/Priyankarlpr/PowerBI_Customer-Churn-Analysis/blob/main/PowerBI/Churn%20Prediction.png)
 - Churner count by demographics and tenure
 - "Customers at Risk" table with revenue and referrals
 
@@ -85,8 +85,8 @@ Machine learning was performed in a separate **Jupyter Notebook** using:
 - Feature selection and label encoding
 - Trained model to predict churners
 
-[See Model Code](Churn%20Prediction%20Model.ipynb)  
-[View Prediction Output](Predictions.xlsx)
+[See Model Code](https://github.com/Priyankarlpr/PowerBI_Customer-Churn-Analysis/blob/main/RandomForestModel/Churn%20Prediction%20Model.ipynb)  
+[View Prediction Output](https://github.com/Priyankarlpr/PowerBI_Customer-Churn-Analysis/blob/main/Data/Predictions.xlsx)
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -105,10 +105,9 @@ Machine learning was performed in a separate **Jupyter Notebook** using:
 
 ## How to Use This Project
 
-1. Open `.pbix` file in Power BI Desktop (if shared separately)
+1. Open https://github.com/Priyankarlpr/PowerBI_Customer-Churn-Analysis/blob/main/Telecom%20Customer%20Churn%20Analysis.pbix file in Power BI Desktop (if shared separately)
 2. Use `SQL Queries.docx` to reproduce database structure and cleaning
 3. Run `Churn Prediction Model.ipynb` to explore the ML workflow
-4. Analyze insights from screenshots or build your own visuals
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
