@@ -121,7 +121,7 @@ Data used is anonymized or synthetic and does not represent real customers.
 ## 🔗 Author
 
 **Priyanka R**  
-Feel free to connect via [LinkedIn](#) or reach out with questions!
+Feel free to connect via [Linkedin](https://www.linkedin.com/in/priyankar0512/?trk=PROFILE_DROP_DOWN) or reach out with questions!
 
 
 
